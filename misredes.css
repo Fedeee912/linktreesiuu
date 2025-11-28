@@ -1,0 +1,33 @@
+body { 
+ background-color:#3b5a80;
+}
+
+main { 
+    width: 70%;
+    position: relative; 
+    left: 50%; 
+    transform: translateX(-50%);
+    text-align: center; 
+   background-color: #0a0a0a;
+   color: #ffffff;
+} 
+
+nav a {
+    color: #ffffff;
+    padding: 20px 80px;
+    margin-top: 8px; 
+    text-decoration: none;  
+    border-radius: 8px;  
+    transition: all 0.3s ease;
+} 
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;    
+    margin-bottom: 20px; 
+    border: 2px solid #ff7640;
+}
+nav.linktree a:hover {
+    background-color: #ff7640; 
+    color: #ffffff;            
+}

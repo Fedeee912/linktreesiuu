@@ -1,0 +1,51 @@
+header h1 { font-size: 48px;
+    margin-bottom: 20px;
+    color: #96A7CC;
+    margin: 0; 
+    text-align: center; 
+    font-family: 'Press Start 2P', cursive;  
+} 
+nav {  
+   display: flex;
+   justify-content: center;
+   font-weight: bolder; 
+   gap: 2rem; 
+    text-decoration: none; 
+    font-size: 20px;
+    border-radius: 6px; 
+    transition: 0,3s ease;
+    color: #b7d6ff;
+    top: 0;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif; 
+  background-color: #D5E1FC;
+}
+
+h2, h3 {
+  font-family: 'Press Start 2P', cursive; 
+}
+
+article {
+  display: inline-block;
+  margin: 10px;
+} 
+
+
+img {
+  width: 200px;
+  height: 180px;
+  border-radius: 10px; 
+} 
+
+aside {
+  background-color: #0F0A29;
+  color: #e0e0e0; 
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; 
+}
